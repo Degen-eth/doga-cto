@@ -33,7 +33,7 @@ const HowToBuy = () => {
         </OrderCard>
         <OrderCard order={2} title={"add eth to wallet"} style={"\-rotate-6"}>
           <span>
-            If you don't have any{" "}
+            If you don&apos;t have any{" "}
             <span className="bg-gradient-to-r from-[#627eea] to-[#764eee] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
               $ETH
             </span>
@@ -60,7 +60,7 @@ const HowToBuy = () => {
               $ETH
             </span>{" "}
             for <span className="font-extrabold text-2xl text-duis">$DOGA</span>
-            .{`There's zero taxes so you don’t need to worry.`}
+            .{`There&apos;s zero taxes so you don&apos;t need to worry.`}
           </span>
         </OrderCard>
         <OrderCard order={4} title={`you&apos;re a DOGA holder!`} style={"rotate-2"}>
