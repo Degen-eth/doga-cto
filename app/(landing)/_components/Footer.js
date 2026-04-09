@@ -25,8 +25,15 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div class="overflow-hidden relative h-24">
-        <img className="absolute bottom-0 w-full" src="grass.svg" alt="grass" />
+      <div className="overflow-hidden relative h-24">
+        <Image
+          className="absolute bottom-0 w-full"
+          src="/grass.svg"
+          alt="grass"
+          width={1920}
+          height={96}
+          style={{ objectFit: 'cover' }}
+        />
       </div>
 
       <div className="absolute bottom-0 w-full">
