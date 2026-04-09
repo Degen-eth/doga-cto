@@ -63,7 +63,7 @@ const HowToBuy = () => {
             .{`There's zero taxes so you don’t need to worry.`}
           </span>
         </OrderCard>
-        <OrderCard order={4} title={`you're a DOGA holder!`} style={"rotate-2"}>
+        <OrderCard order={4} title={`you&apos;re a DOGA holder!`} style={"rotate-2"}>
           <span>
             Welcome to the <br />
             <span className="uppercase font-extrabold text-2xl underline decoration-duis">

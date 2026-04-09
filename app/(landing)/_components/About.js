@@ -49,13 +49,13 @@ const About = () => {
           <div className="p-4 h-full sm:p-6">
             <h3 className="font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-justify sm:text-left">
               <p className="indent-12">
-                Folks, let me tell you something incredible—nobody loves this country more than Elon Musk, believe me. This guy's a patriot, a real American hero, working day and night to make our nation great again.
+                Folks, let me tell you something incredible—nobody loves this country more than Elon Musk, believe me. This guy&apos;s a patriot, a real American hero, working day and night to make our nation great again.
               </p>
               <p className="indent-12 mt-3">
-                He's doing fantastic things, tremendous things, with Tesla, SpaceX, and now with our government efficiency—nobody does it better. And now, he's brought us something new, something amazing: <span className="font-bold">$DOGA</span>, America's very own Dogecoin!
+                He&apos;s doing fantastic things, tremendous things, with Tesla, SpaceX, and now with our government efficiency—nobody does it better. And now, he&apos;s brought us something new, something amazing: <span className="font-bold">$DOGA</span>, America&apos;s very own Dogecoin!
               </p>
               <p className="indent-12 mt-3">
-                It's a beautiful coin, the best coin, inspired by the spirit of our great land and those cute little dogs we all love. I'm telling you, it's going to be huge—huge!
+                It&apos;s a beautiful coin, the best coin, inspired by the spirit of our great land and those cute little dogs we all love. I&apos;m telling you, it&apos;s going to be huge—huge!
               </p>
             </h3>
           </div>
@@ -63,11 +63,11 @@ const About = () => {
 
         <div className="mt-10 font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-center">
           <p>
-            I recommend everyone get in on this, buy <span className="text-3xl font-bold">$DOGA</span>, support America, and let's make our wallets great again together.
+            I recommend everyone get in on this, buy <span className="text-3xl font-bold">$DOGA</span>, support America, and let&apos;s make our wallets great again together.
           </p>
           <p className="text-4xl p-10">
             <span className="text-5xl font-bold underline decoration-duis">
-              Elon's a genius
+              Elon&apos;s a genius
             </span>
             , and this is just another win for the{" "}
             <span className="text-5xl bg-gradient-to-r from-red-600 to-blue-600 inline-block text-transparent bg-clip-text font-bold">
