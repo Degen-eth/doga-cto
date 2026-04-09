@@ -33,11 +33,11 @@ const HowToBuy = () => {
         </OrderCard>
         <OrderCard order={2} title={"add eth to wallet"} style={"\-rotate-6"}>
           <span>
-            If you don{"'"}t have any{" "}
+            If you don't have any{" "}
             <span className="bg-gradient-to-r from-[#627eea] to-[#764eee] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
               $ETH
             </span>
-            , you can buy directly on{" "}}
+            , you can buy directly on{" "}
             <a
               href="https://metamask.io"
               target="_blank"
