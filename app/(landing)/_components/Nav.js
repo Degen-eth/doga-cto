@@ -65,7 +65,7 @@ const Nav = () => {
         {/* Buy Button */}
         <div className="lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="https://etherscan.io/token/0x72C6ec45873E49338EA37Bd969461d877ac000A9"
+            href="https://dexscreener.com/swap/ethereum/0x6020de886ca545139f3bda8db63a78e3b4e46315"
             target="_blank"
             className="transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-black hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
           >
