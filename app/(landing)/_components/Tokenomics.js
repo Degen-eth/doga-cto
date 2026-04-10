@@ -18,7 +18,7 @@ const cards = [
     desc: "9",
   },
   {
-    img: "solana.gif",
+    img: "ethereum.gif",
     title: "Network",
     desc: "Ethereum",
   },
@@ -32,7 +32,7 @@ const Tokenomics = () => {
           Tokenomics
         </h2>
         <h3 className="font-stopbuck text-2xl text-center text-black">
-          {`It&apos;s Moonshot tokenomics!`}
+          Moonshot Tokenomics
         </h3>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-flow-col gap-5 gap-y-20 justify-center justify-items-center">

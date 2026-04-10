@@ -47,7 +47,7 @@ const About = () => {
           </div>
 
           <div className="p-4 h-full sm:p-6">
-            <h3 className="font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-justify sm:text-left">
+            <h3 className="font-mono font-bold text-lg sm:text-2xl text-[#33271e] tracking-widest text-justify sm:text-left">
               <p className="indent-12">
                 Folks, let me tell you something incredible—nobody loves this country more than Elon Musk, believe me. This guy&apos;s a patriot, a real American hero, working day and night to make our nation great again.
               </p>
@@ -61,7 +61,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="mt-10 font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-center">
+        <div className="mt-10 font-mono font-bold text-lg sm:text-2xl text-[#33271e] tracking-widest text-center">
           <p>
             I recommend everyone get in on this, buy <span className="text-3xl font-bold">$DOGA</span>, support America, and let&apos;s make our wallets great again together.
           </p>
