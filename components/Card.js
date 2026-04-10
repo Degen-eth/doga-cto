@@ -15,7 +15,7 @@ const Card = ({ props: { img, title, desc } }) => {
               width={500}
               height={500}
               unoptimized
-              className="h-full object-cover"
+              className="h-full w-full object-contain"
             />
           </div>
 
