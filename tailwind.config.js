@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         stopbuck: ["Stopbuck", "sans-serif"],
+        bold: ["Bebas Neue", "sans-serif"],
       },
     },
   },
