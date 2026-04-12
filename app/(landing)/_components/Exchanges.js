@@ -24,14 +24,16 @@ const Exchanges = () => {
         {exchanges.map((ex, idx) => (
           <a key={idx} href={ex.link} target="_blank" className="shrink-0 group relative">
             <div className="relative w-80 h-80 flex justify-center items-center border-2 border-black rounded-xl bg-white hover:bg-duis transition-colors">
-              <Image
-                src={`/${ex.img}`}
-                alt={ex.title}
-                width={300}
-                height={300}
-                unoptimized
-                className="h-2/3 w-2/3 object-contain object-center"
-              />
+              <div className="flex justify-center items-center w-full h-full">
+                <Image
+                  src={`/${ex.img}`}
+                  alt={ex.title}
+                  width={250}
+                  height={250}
+                  unoptimized
+                  className="max-h-56 max-w-56 object-contain object-center"
+                />
+              </div>
             </div>
             <div className="transition-opacity duration-300 absolute inset-0 opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 flex justify-center items-center rounded-xl">
               <h3 className="font-bold text-3xl text-duis">{ex.title}</h3>

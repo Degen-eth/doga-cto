@@ -9,14 +9,16 @@ const Card = ({ props: { img, title, desc } }) => {
       <div className="relative h-full transform rounded-xl border-2 border-black bg-white transition-transform -translate-x-2 -translate-y-2 group-hover:translate-x-0 group-hover:translate-y-0">
         <div className="h-full transition-opacity grid grid-rows-4">
           <div className="row-span-3 flex justify-center items-center border-b-2 rounded-b-xl border-black">
-            <Image
-              src={`/${img}`}
-              alt={title}
-              width={500}
-              height={500}
-              unoptimized
-              className="h-2/3 w-auto object-contain object-center"
-            />
+            <div className="flex justify-center items-center w-full h-full">
+              <Image
+                src={`/${img}`}
+                alt={title}
+                width={250}
+                height={250}
+                unoptimized
+                className="max-h-48 max-w-48 object-contain object-center"
+              />
+            </div>
           </div>
 
           <div className="py-3 text-center font-stopbuck">
