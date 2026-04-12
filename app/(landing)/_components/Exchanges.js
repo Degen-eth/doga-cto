@@ -30,7 +30,7 @@ const Exchanges = () => {
                 width={300}
                 height={300}
                 unoptimized
-                className="h-2/3 w-2/3 object-contain"
+                className="h-2/3 w-2/3 object-contain object-center"
               />
             </div>
             <div className="transition-opacity duration-300 absolute inset-0 opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 flex justify-center items-center rounded-xl">
